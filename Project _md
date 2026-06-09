@@ -1,0 +1,472 @@
+
+Title:
+TalentLens AI
+
+AI-Powered Skill Discovery and Opportunity Matching Platform
+
+
+---
+
+1. Project Overview
+
+TalentLens AI is an intelligent platform designed to identify, analyze, and utilize the hidden skills of students. Many students possess valuable technical and non-technical skills, but these skills often remain unnoticed by institutions, faculty members, and recruiters. As a result, students miss opportunities while organizations struggle to find suitable candidates.
+
+The proposed system uses Artificial Intelligence to extract skills from resumes, certifications, and project experiences. Based on the identified skills, the platform recommends suitable projects, internships, hackathons, research activities, and competitions.
+
+The platform helps institutions make better use of student talent while ensuring that students receive opportunities that match their abilities and interests.
+
+
+---
+
+2. Problem Statement
+
+Educational institutions often face difficulties in identifying and utilizing the hidden skills of students. Traditional methods rely on academic scores and manual evaluation, which do not accurately represent a student's complete skill set.
+
+As a result:
+
+Talented students remain unnoticed.
+
+Opportunities are not allocated efficiently.
+
+Teams are formed without considering actual skills.
+
+Students miss projects, internships, and competitions that match their capabilities.
+
+
+There is a need for an intelligent system that can automatically discover student skills and match them with relevant opportunities.
+
+
+---
+
+3. Proposed Solution
+
+TalentLens AI provides an AI-driven platform that:
+
+Collects student profiles and resumes.
+
+Extracts skills using Artificial Intelligence.
+
+Stores and organizes skill information.
+
+Matches students with suitable opportunities.
+
+Recommends projects, internships, hackathons, and research activities.
+
+Assists faculty members in identifying suitable candidates for academic and research work.
+
+
+The system acts as a bridge between talent and opportunity.
+
+
+---
+
+4. Objectives
+
+Primary Objectives
+
+Identify hidden skills among students.
+
+Reduce skill wastage.
+
+Improve opportunity allocation.
+
+Support faculty in selecting suitable candidates.
+
+Encourage participation in projects and competitions.
+
+
+Secondary Objectives
+
+Build a centralized talent database.
+
+Improve team formation efficiency.
+
+Enhance student career development.
+
+Promote skill-based decision-making.
+
+
+
+---
+
+5. Scope of the Project
+
+The system can be used in:
+
+Colleges and Universities
+
+Training Institutions
+
+Research Organizations
+
+Innovation Centers
+
+Startup Incubation Programs
+
+Student Clubs and Communities
+
+
+Future versions can also support recruitment and talent acquisition.
+
+
+---
+
+6. System Modules
+
+Module 1: User Management
+
+Functions
+
+Student Registration
+
+Student Login
+
+Faculty Registration
+
+Faculty Login
+
+Profile Management
+
+JWT Authentication
+
+
+
+---
+
+Module 2: Resume Upload and Processing
+
+Functions
+
+Resume Upload
+
+PDF Parsing
+
+Information Extraction
+
+Resume Storage
+
+
+Output
+
+Skills
+
+Certifications
+
+Projects
+
+Technical Competencies
+
+
+
+---
+
+Module 3: Skill Discovery Engine
+
+Functions
+
+AI-based Skill Extraction
+
+Skill Categorization
+
+Skill Scoring
+
+Proficiency Analysis
+
+
+Examples
+
+Java
+
+Python
+
+React
+
+UI/UX Design
+
+Machine Learning
+
+Public Speaking
+
+
+
+---
+
+Module 4: Opportunity Management
+
+Functions
+
+Create Opportunities
+
+Update Opportunities
+
+Delete Opportunities
+
+Manage Opportunity Requirements
+
+
+Opportunity Types
+
+Academic Projects
+
+Research Projects
+
+Internships
+
+Hackathons
+
+Competitions
+
+
+
+---
+
+Module 5: AI Matching Engine
+
+Functions
+
+Skill Matching
+
+Similarity Analysis
+
+Candidate Ranking
+
+Recommendation Generation
+
+
+Output
+
+Match Score Example:
+
+Student A → 92%
+
+Student B → 85%
+
+Student C → 78%
+
+
+---
+
+Module 6: Recommendation System
+
+Functions
+
+Opportunity Recommendations
+
+Project Recommendations
+
+Internship Recommendations
+
+Competition Recommendations
+
+
+
+---
+
+Module 7: Dashboard and Analytics
+
+Student Dashboard
+
+Profile Summary
+
+Skills Overview
+
+Recommended Opportunities
+
+Match Scores
+
+
+Faculty Dashboard
+
+Candidate Search
+
+Opportunity Management
+
+Skill Analytics
+
+
+
+---
+
+7. Technology Stack
+
+Frontend
+
+React.js
+
+Tailwind CSS
+
+Axios
+
+
+Backend
+
+Java
+
+Spring Boot
+
+Spring Security
+
+JWT Authentication
+
+
+Database
+
+MySQL
+
+
+AI Layer
+
+Python
+
+FastAPI
+
+spaCy
+
+Sentence Transformers
+
+
+Development Tools
+
+Git
+
+GitHub
+
+Postman
+
+Maven
+
+
+
+---
+
+8. Database Tables
+
+Students
+
+student_id
+
+name
+
+email
+
+department
+
+year
+
+
+Skills
+
+skill_id
+
+skill_name
+
+category
+
+
+Student_Skills
+
+student_id
+
+skill_id
+
+proficiency_score
+
+
+Opportunities
+
+opportunity_id
+
+title
+
+description
+
+required_skills
+
+
+Matches
+
+match_id
+
+student_id
+
+opportunity_id
+
+match_score
+
+
+
+---
+
+9. AI Algorithm
+
+TASM Algorithm
+
+Talent Analysis and Skill Matching Algorithm
+
+Steps
+
+1. Resume Collection
+
+
+2. Skill Extraction
+
+
+3. Skill Categorization
+
+
+4. Opportunity Requirement Analysis
+
+
+5. Similarity Matching
+
+
+6. Match Score Generation
+
+
+7. Recommendation Creation
+
+
+
+
+---
+
+10. Expected Outcomes
+
+Better utilization of student talent.
+
+Faster opportunity allocation.
+
+Improved project team formation.
+
+Increased student participation.
+
+Reduced skill wastage.
+
+Enhanced institutional productivity.
+
+
+
+---
+
+11. Future Enhancements
+
+GitHub Integration
+
+LinkedIn Integration
+
+AI Interview Assessment
+
+Team Compatibility Analysis
+
+Industry Recruitment Support
+
+Real-Time Skill Marketplace
+
+
+
+---
+
+12. Conclusion
+
+TalentLens AI is an AI-powered platform that bridges the gap between student talent and available opportunities. By automatically discovering skills and intelligently matching them with relevant opportunities, the system promotes efficient talent utilization, improves academic and professional growth, and supports data-driven decision-making within educational institutions. 🚀
+
